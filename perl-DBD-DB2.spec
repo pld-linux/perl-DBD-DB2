@@ -9,6 +9,7 @@ Release:	2
 License:	IBM (see LICENSE)
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
+# Source0-md5:	dd300689622a685c66d3d246c3be31d7
 BuildRequires:	perl-DBI >= 0.93
 BuildRequires:	rpm-perlprov >= 4.1-13
 #BR: DB2 Software Developer's Kit v5.2
