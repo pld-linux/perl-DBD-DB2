@@ -28,7 +28,7 @@ komunikowaæ siê z DB2 Universal Database firmy IBM z poziomu Perla.
 
 %build
 %{?db2root:DB2_HOME="%{db2root}"; export DB2_HOME}
-perl Makefile.PL
+%{__perl} Makefile.PL
 
 %{__make} OPTIMIZE="%{rpmcflags}"
 
