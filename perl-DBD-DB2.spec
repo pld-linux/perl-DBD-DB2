@@ -5,12 +5,12 @@ Summary:	DBD::DB2 perl module
 Summary(pl):	Modu³ perla DBD::DB2
 Name:		perl-DBD-DB2
 Version:	0.76
-Release:	1
+Release:	2
 License:	IBM (see LICENSE)
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 BuildRequires:	perl-DBI >= 0.93
-BuildRequires:	rpm-perlprov >= 3.0.3-16
+BuildRequires:	rpm-perlprov >= 4.0.2-104
 #BR: DB2 Software Developer's Kit v5.2
 #or  DB2 Application Development Client v6 or later
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
