@@ -37,13 +37,11 @@ rm -rf $RPM_BUILD_ROOT
 
 %{__make} install DESTDIR=$RPM_BUILD_ROOT
 
-gzip -9nf CAVEATS HISTORY LICENSE README
-
 %clean
 rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc *.gz
+%doc CAVEATS HISTORY LICENSE README
 #%{perl_sitearch}/???
 %{_mandir}/man3/*
