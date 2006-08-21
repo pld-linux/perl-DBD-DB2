@@ -8,12 +8,12 @@
 Summary:	DBD::DB2 - database driver for DB2 UDB
 Summary(pl):	DBD::DB2 - sterownik bazy danych DB2
 Name:		perl-DBD-DB2
-Version:	0.76
-Release:	2
+Version:	0.80
+Release:	1
 License:	distributable (see LICENSE)
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	dd300689622a685c66d3d246c3be31d7
+# Source0-md5:	7391c071dd1e7f3e8953077d0fe084f6
 BuildRequires:	perl-DBI >= 0.93
 BuildRequires:	rpm-perlprov >= 4.1-13
 #BR: DB2 Software Developer's Kit v5.2
