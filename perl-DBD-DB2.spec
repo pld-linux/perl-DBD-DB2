@@ -6,7 +6,7 @@
 %define		pdir	DBD
 %define		pnam	DB2
 Summary:	DBD::DB2 - database driver for DB2 UDB
-Summary(pl):	DBD::DB2 - sterownik bazy danych DB2
+Summary(pl.UTF-8):   DBD::DB2 - sterownik bazy danych DB2
 Name:		perl-DBD-DB2
 Version:	0.80
 Release:	1
@@ -25,9 +25,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 DBD::DB2 is a Perl module which when used in conjunction with DBI
 allows Perl to communicate with IBM's DB2 Universal Database.
 
-%description -l pl
-DBD::DB2 jest modu³em Perla, który w po³±czeniu z DBI pozwala
-komunikowaæ siê z DB2 Universal Database firmy IBM z poziomu Perla.
+%description -l pl.UTF-8
+DBD::DB2 jest moduÅ‚em Perla, ktÃ³ry w poÅ‚Ä…czeniu z DBI pozwala
+komunikowaÄ‡ siÄ™ z DB2 Universal Database firmy IBM z poziomu Perla.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
