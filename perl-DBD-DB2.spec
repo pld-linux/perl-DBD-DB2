@@ -6,7 +6,7 @@
 %define		pdir	DBD
 %define		pnam	DB2
 Summary:	DBD::DB2 - database driver for DB2 UDB
-Summary(pl.UTF-8):   DBD::DB2 - sterownik bazy danych DB2
+Summary(pl.UTF-8):	DBD::DB2 - sterownik bazy danych DB2
 Name:		perl-DBD-DB2
 Version:	0.80
 Release:	1
